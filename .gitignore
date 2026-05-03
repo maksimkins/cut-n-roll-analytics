@@ -1,0 +1,91 @@
+
+# OS / General
+
+.DS_Store
+Thumbs.db
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter / Databricks
+.ipynb_checkpoints/
+*.dbc
+
+# Environment / Secrets
+.env
+.env.*
+*.env
+
+# Azure credentials
+.azure/
+*.pem
+*.key
+*.pfx
+*.cert
+
+# Terraform / OpenTofu
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*.tfvars
+*.tfvars.json
+.terraform.lock.hcl
+
+# OpenTofu 
+.tofu/
+
+
+# Docker
+docker-compose.override.yml
+
+
+# Kubernetes
+*.kubeconfig
+kubeconfig.yaml
+
+
+# IDEs
+.vscode/
+.idea/
+
+
+# CI/CD
+*.cache
+coverage/
+htmlcov/
+
+
+# Misc
+tmp/
+temp/
+*.swp
+
+# Data files 
+*.csv
+*.parquet
+*.delta/
+
+data-batch/raw-data/
+streaming-app/test-data/
+
+postgres-data/
